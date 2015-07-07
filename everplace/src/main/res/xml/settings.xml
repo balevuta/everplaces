@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_interface" >
+        
+        <MultiSelectListPreference
+            android:dialogTitle="@string/pref_select_cate_title"
+            android:defaultValue="@array/categoryValues"
+            android:entries="@array/categoryEntries"
+            android:entryValues="@array/categoryValues"
+            android:key="prefCategoryList"
+            android:summary="@string/pref_select_cate_summary"
+            android:title="@string/pref_select_cate_title" />
+        
+        <ListPreference
+            android:defaultValue="List"
+            android:entries="@array/cateTypeEntries"
+            android:entryValues="@array/cateTypeValues"
+            android:key="prefCateType"
+            android:summary="@string/pref_cate_type_summary"
+            android:title="@string/pref_cate_type_title" />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/pref_language" >
+        
+        <ListPreference
+            android:entries="@array/languagesEntries"
+            android:entryValues="@array/languagesValues"
+            android:key="prefLanguageList"
+            android:summary="@string/pref_language_summary"
+            android:title="@string/pref_language_title"
+            android:defaultValue="VN" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/pref_general" >
+
+        <Preference
+            android:key="prefHelp"
+            android:summary="@string/pref_help_summary"
+            android:title="@string/pref_help" />
+        <Preference
+            android:key="prefAbout"
+            android:summary="@string/pref_about_summary"
+            android:title="@string/pref_about" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

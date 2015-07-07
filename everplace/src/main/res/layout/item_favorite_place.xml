@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/layer_card_background_selector_white"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/img_favorite_item"
+        android:layout_width="@dimen/item_favorite_icon"
+        android:layout_height="@dimen/item_favorite_icon"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/cate_icon_cafe" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_favorite_place_name"
+            style="@style/StyleTextInTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Place name" />
+
+        <TextView
+            android:id="@+id/txt_favorite_place_address"
+            style="@style/StyleTextInDetailInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place address" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/item_side_menu_arrow"
+        android:layout_height="@dimen/item_side_menu_arrow"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/icon_arrow_forward" />
+
+</LinearLayout>

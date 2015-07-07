@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="totu_share_place">Share place \nwith your friend</string>
+    <string name="totu_option_place">Place options: \nDial call, Save favorite, Get direction</string>
+    <string name="totu_navigate">Check to start \nnavigation control</string>
+    <string name="totu_more">More results</string>
+    <string name="totu_search">Advanced search</string>
+    <string name="totu_results">Results list</string>
+    <string name="totu_touch_info_window">Touch in info window \nto find place detail</string>
+    <string name="totu_car">Car</string>
+    <string name="totu_walk">Walk</string>
+    <string name="totu_start_destination">Choose start point and destination \nto get direction</string>
+    <string name="totu_delete_all">Delete all</string>
+    <string name="totu_swipe_delete">Swipe left or right to delete an item</string>
+    
+    <string name="help_title_category">Category search</string>
+    <string name="help_title_fast_search">Fast search</string>
+    <string name="help_title_maps">Places on Maps</string>
+    <string name="help_title_place_detail">Place details</string>
+    <string name="help_title_direction">Direction detail</string>
+    <string name="help_title_navigation">Navigation control</string>
+    <string name="help_title_favorite">Favorite places</string>
+    <string name="help_title_history">History places</string>
+    
+    <string name="help_mess_category">Search all places that around your location base on their category, such as restaurant, coffee…</string>
+    <string name="help_mess_fast_search">Just type a keyword that include the place detail you want to search and check the results. You can make the voice search also.</string>
+    <string name="help_mess_maps">Check the list places result on map screen, display more result if you want, show places result in list view, make the filter if you are searching in category mode.</string>
+    <string name="help_mess_place_detail">Display all detail information about the place, you can make a call, visit website, send email and find the direction to the place.</string>
+    <string name="help_mess_direction">Show on map the direction information, you can change the destination and direction mode, specially you can active the navigation control.</string>
+    <string name="help_mess_navigation">Get the phone sensor and make a navigation directly with map screen.</string>
+    <string name="help_mess_favorite">Show your favorite places on list view, you can delete by swipe left or right on item.</string>
+    <string name="help_mess_history">Show your search history places on list view, you can delete by swipe left or right on item.</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- phone 800x480 -->
+    
+    <dimen name="height_box_view_card_detail">25dp</dimen>
+    
+    <dimen name="height_detail_button_smaller">30dp</dimen>
+    
+    <dimen name="padding_box_detail">2dp</dimen>
+    
+    <dimen name="padding_text_detail">0dp</dimen>
+    
+    <dimen name="padding_text_header_detail">0dp</dimen>
+    
+    <dimen name="dialog_height_review">250dp</dimen>
+    
+</resources>

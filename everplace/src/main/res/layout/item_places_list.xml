@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:background="@drawable/layer_card_background_selector_white"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="@dimen/item_side_menu_arrow"
+        android:layout_height="@dimen/item_side_menu_arrow"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/icon_arrow_backward" />
+    
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_list_name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/holo_blue_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Khu du lich Suoi tien" />
+
+        <TextView
+            android:id="@+id/txt_list_address"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/Black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quan 9, tp HCM" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_list_distance"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/holo_blue_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.5 km" />
+    </LinearLayout>
+
+</LinearLayout>

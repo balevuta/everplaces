@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/action_direction_driving"
+        android:icon="@drawable/icon_car_32"
+        android:orderInCategory="1"
+        android:showAsAction="always|withText"
+        android:title="@string/action_driving_mode"/>
+    
+    <item
+        android:id="@+id/action_direction_walking"
+        android:icon="@drawable/icon_walking_32"
+        android:orderInCategory="2"
+        android:showAsAction="always|withText"
+        android:title="@string/action_walking_mode"/>
+    
+</menu>

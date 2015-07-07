@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/item_category_margin" >
+
+        <LinearLayout
+            android:id="@+id/btn_restaurant"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_category_tile_list"
+            android:layout_marginBottom="@dimen/item_category_margin"
+            android:background="@drawable/shape_category_button_blue_res"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_circle_list" >
+
+                <ImageView
+                    android:layout_width="@dimen/item_category_icon_list"
+                    android:layout_height="@dimen/item_category_icon_list"
+                    android:layout_gravity="center"
+                    android:src="@drawable/cate_icon_restaurant" />
+            </FrameLayout>
+
+            <TextView
+                style="@style/StyleTextInHomeTile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/home_restaurant"
+                android:textColor="@color/White" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_zoo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_category_tile_list"
+            android:layout_marginBottom="@dimen/item_category_margin"
+            android:background="@drawable/shape_category_button_gray"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_circle_list" >
+
+                <ImageView
+                    android:layout_width="@dimen/item_category_icon_list"
+                    android:layout_height="@dimen/item_category_icon_list"
+                    android:layout_gravity="center"
+                    android:src="@drawable/cate_icon_zoo_elep" />
+            </FrameLayout>
+
+            <TextView
+                style="@style/StyleTextInHomeTile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/home_zoo"
+                android:textColor="@color/White" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_park"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_category_tile_list"
+            android:layout_marginBottom="@dimen/item_category_margin"
+            android:background="@drawable/shape_category_button_green_bus_stop"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_circle_list" >
+
+                <ImageView
+                    android:layout_width="@dimen/item_category_icon_list"
+                    android:layout_height="@dimen/item_category_icon_list"
+                    android:layout_gravity="center"
+                    android:src="@drawable/cate_icon_park" />
+            </FrameLayout>
+
+            <TextView
+                style="@style/StyleTextInHomeTile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/home_park"
+                android:textColor="@color/White" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_cafe"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_category_tile_list"
+            android:layout_marginBottom="@dimen/item_category_margin"
+            android:background="@drawable/shape_category_button_brown"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_circle_list" >
+
+                <ImageView
+                    android:layout_width="@dimen/item_category_icon_list"
+                    android:layout_height="@dimen/item_category_icon_list"
+                    android:layout_gravity="center"
+                    android:src="@drawable/cate_icon_cafe" />
+            </FrameLayout>
+
+            <TextView
+                style="@style/StyleTextInHomeTile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/home_cafe"
+                android:textColor="@color/White" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_shopping"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_category_tile_list"
+            android:layout_marginBottom="@dimen/item_category_margin"
+            android:background="@drawable/shape_category_button_red"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_circle_list" >
+
+                <ImageView
+                    android:layout_width="@dimen/item_category_icon_list"
+                    android:layout_height="@dimen/item_category_icon_list"
+                    android:layout_gravity="center"
+                    android:src="@drawable/cate_icon_shopping" />
+            </FrameLayout>
+
+            <TextView
+                style="@style/StyleTextInHomeTile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/home_shopping"
+                android:textColor="@color/White" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_category_tile_list"
+            android:layout_marginBottom="@dimen/item_category_margin"
+            android:background="@drawable/shape_category_button_dark_violet"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_circle_list" >
+
+                <ImageView
+                    android:layout_width="@dimen/item_category_icon_list"
+                    android:layout_height="@dimen/item_category_icon_list"
+                    android:layout_gravity="center"
+                    android:src="@drawable/cate_icon_bar_2" />
+            </FrameLayout>
+
+            <TextView
+                style="@style/StyleTextInHomeTile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/home_bar"
+                android:textColor="@color/White" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_food"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_category_tile_list"
+            android:layout_marginBottom="@dimen/item_category_margin"
+            android:background="@drawable/shape_category_button_yellow"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_circle_list" >
+
+                <ImageView
+                    android:layout_width="@dimen/item_category_icon_list"
+                    android:layout_height="@dimen/item_category_icon_list"
+                    android:layout_gravity="center"
+                    android:src="@drawable/cate_icon_food" />
+            </FrameLayout>
+
+            <TextView
+                style="@style/StyleTextInHomeTile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/home_food"
+                android:textColor="@color/White" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/box_home_bank"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_category_tile"
+            android:layout_marginBottom="@dimen/item_category_margin"
+            android:baselineAligned="false"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:id="@+id/btn_post_office"
+                android:layout_width="@dimen/item_category_tile"
+                android:layout_height="@dimen/item_category_tile"
+                android:layout_marginBottom="@dimen/item_category_margin"
+                android:layout_marginRight="@dimen/item_category_margin"
+                android:background="@drawable/shape_category_button_blue_cyan"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_circle" >
+
+                    <ImageView
+                        android:layout_width="@dimen/item_category_icon"
+                        android:layout_height="@dimen/item_category_icon"
+                        android:layout_gravity="center"
+                        android:src="@drawable/cate_icon_office_building" />
+                </FrameLayout>
+
+                <TextView
+                    style="@style/StyleTextInHomeTile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_post_office"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_bank"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_category_tile"
+                android:layout_weight="1"
+                android:background="@drawable/shape_category_button_dark_gray"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_circle" >
+
+                    <ImageView
+                        android:layout_width="@dimen/item_category_icon"
+                        android:layout_height="@dimen/item_category_icon"
+                        android:layout_gravity="center"
+                        android:src="@drawable/cate_icon_atm" />
+                </FrameLayout>
+
+                <TextView
+                    style="@style/StyleTextInHomeTile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_bank"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_super_market"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_category_tile_list"
+            android:layout_marginBottom="@dimen/item_category_margin"
+            android:background="@drawable/shape_category_button_red_super_market"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_circle_list" >
+
+                <ImageView
+                    android:layout_width="@dimen/item_category_icon_list"
+                    android:layout_height="@dimen/item_category_icon_list"
+                    android:layout_gravity="center"
+                    android:src="@drawable/cate_icon_super_market" />
+            </FrameLayout>
+
+            <TextView
+                style="@style/StyleTextInHomeTile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/home_super_market"
+                android:textColor="@color/White" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_museum"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_category_tile_list"
+            android:layout_marginBottom="@dimen/item_category_margin"
+            android:background="@drawable/shape_category_button_dark_gray_museum"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_circle_list" >
+
+                <ImageView
+                    android:layout_width="@dimen/item_category_icon_list"
+                    android:layout_height="@dimen/item_category_icon_list"
+                    android:layout_gravity="center"
+                    android:src="@drawable/cate_icon_museum" />
+            </FrameLayout>
+
+            <TextView
+                style="@style/StyleTextInHomeTile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/home_museum"
+                android:textColor="@color/White" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_beauty_salon"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_category_tile_list"
+            android:layout_marginBottom="@dimen/item_category_margin"
+            android:background="@drawable/shape_category_button_red_super_market"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_circle_list" >
+
+                <ImageView
+                    android:layout_width="@dimen/item_category_icon_list"
+                    android:layout_height="@dimen/item_category_icon_list"
+                    android:layout_gravity="center"
+                    android:src="@drawable/cate_icon_beauty_salon" />
+            </FrameLayout>
+
+            <TextView
+                style="@style/StyleTextInHomeTile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/home_beauty_salon"
+                android:textColor="@color/White" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/box_home_bus"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_category_tile"
+            android:layout_marginBottom="@dimen/item_category_margin"
+            android:baselineAligned="false"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:id="@+id/btn_bus_station"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_category_tile"
+                android:layout_marginRight="@dimen/item_category_margin"
+                android:layout_weight="1"
+                android:background="@drawable/shape_category_button_green_bus_stop"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_circle" >
+
+                    <ImageView
+                        android:layout_width="@dimen/item_category_icon"
+                        android:layout_height="@dimen/item_category_icon"
+                        android:layout_gravity="center"
+                        android:src="@drawable/cate_icon_bus_station_1" />
+                </FrameLayout>
+
+                <TextView
+                    style="@style/StyleTextInHomeTile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_bus_station"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_gas_station"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_category_tile"
+                android:layout_weight="1"
+                android:background="@drawable/shape_category_button_red_gas_station"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_circle" >
+
+                    <ImageView
+                        android:layout_width="@dimen/item_category_icon"
+                        android:layout_height="@dimen/item_category_icon"
+                        android:layout_gravity="center"
+                        android:src="@drawable/cate_icon_gas_station" />
+                </FrameLayout>
+
+                <TextView
+                    style="@style/StyleTextInHomeTile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_gas_station"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_movie_theater"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_category_tile_list"
+            android:layout_marginBottom="@dimen/item_category_margin"
+            android:background="@drawable/shape_category_button_orange"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_circle_list" >
+
+                <ImageView
+                    android:layout_width="@dimen/item_category_icon_list"
+                    android:layout_height="@dimen/item_category_icon_list"
+                    android:layout_gravity="center"
+                    android:src="@drawable/cate_icon_movie" />
+            </FrameLayout>
+
+            <TextView
+                style="@style/StyleTextInHomeTile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/home_movie_theater"
+                android:textColor="@color/White" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_night_club"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_category_tile_list"
+            
+            android:background="@drawable/shape_category_button_blue_cyan"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_circle_list" >
+
+                <ImageView
+                    android:layout_width="@dimen/item_category_icon_list"
+                    android:layout_height="@dimen/item_category_icon_list"
+                    android:layout_gravity="center"
+                    android:src="@drawable/cate_icon_night_club" />
+            </FrameLayout>
+
+            <TextView
+                style="@style/StyleTextInHomeTile"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="@string/home_night_club"
+                android:textColor="@color/White" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/box_home_health"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_category_tile"
+            android:layout_marginBottom="@dimen/item_category_margin"
+            android:baselineAligned="false"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:id="@+id/btn_hospital"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_category_tile"
+                android:layout_marginRight="@dimen/item_category_margin"
+                android:layout_weight="1"
+                android:background="@drawable/shape_category_button_sky_blue"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_circle" >
+
+                    <ImageView
+                        android:layout_width="@dimen/item_category_icon"
+                        android:layout_height="@dimen/item_category_icon"
+                        android:layout_gravity="center"
+                        android:src="@drawable/cate_icon_hospital" />
+                </FrameLayout>
+
+                <TextView
+                    style="@style/StyleTextInHomeTile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_hospital"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_pharmacy"
+                android:layout_width="@dimen/item_category_tile"
+                android:layout_height="@dimen/item_category_tile"
+                android:background="@drawable/shape_category_button_green_drug_store"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_circle" >
+
+                    <ImageView
+                        android:layout_width="@dimen/item_category_icon"
+                        android:layout_height="@dimen/item_category_icon"
+                        android:layout_gravity="center"
+                        android:src="@drawable/cate_icon_drug_store" />
+                </FrameLayout>
+
+                <TextView
+                    style="@style/StyleTextInHomeTile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_pharmacy"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/box_home_school"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_category_tile"
+            android:layout_marginBottom="@dimen/item_category_margin"
+            android:baselineAligned="false"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:id="@+id/btn_school"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_category_tile"
+                android:layout_marginRight="@dimen/item_category_margin"
+                android:layout_weight="1"
+                android:background="@drawable/shape_category_button_dark_gray_museum"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_circle" >
+
+                    <ImageView
+                        android:layout_width="@dimen/item_category_icon"
+                        android:layout_height="@dimen/item_category_icon"
+                        android:layout_gravity="center"
+                        android:src="@drawable/cate_icon_school" />
+                </FrameLayout>
+
+                <TextView
+                    style="@style/StyleTextInHomeTile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_school"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_university"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_category_tile"
+                android:layout_weight="1"
+                android:background="@drawable/shape_category_button_green_university"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_circle" >
+
+                    <ImageView
+                        android:layout_width="@dimen/item_category_icon"
+                        android:layout_height="@dimen/item_category_icon"
+                        android:layout_gravity="center"
+                        android:src="@drawable/cate_icon_university" />
+                </FrameLayout>
+
+                <TextView
+                    style="@style/StyleTextInHomeTile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_university"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/box_home_stadium"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_category_tile"
+            android:baselineAligned="false"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:id="@+id/btn_stadium"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_category_tile"
+                android:layout_marginRight="@dimen/item_category_margin"
+                android:layout_weight="1"
+                android:background="@drawable/shape_category_button_green_drug_store"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_circle" >
+
+                    <ImageView
+                        android:layout_width="@dimen/item_category_icon"
+                        android:layout_height="@dimen/item_category_icon"
+                        android:layout_gravity="center"
+                        android:src="@drawable/cate_icon_stadium" />
+                </FrameLayout>
+
+                <TextView
+                    style="@style/StyleTextInHomeTile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_stadium"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_gym"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_category_tile"
+                android:layout_weight="1"
+                android:background="@drawable/shape_category_button_gray"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_circle" >
+
+                    <ImageView
+                        android:layout_width="@dimen/item_category_icon"
+                        android:layout_height="@dimen/item_category_icon"
+                        android:layout_gravity="center"
+                        android:src="@drawable/cate_icon_gym" />
+                </FrameLayout>
+
+                <TextView
+                    style="@style/StyleTextInHomeTile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_gym"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

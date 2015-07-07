@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="api_place_key">AIzaSyBsvJj45j1hv0wf3cpl1tML2URJYvXjm6s</string>
+    <string name="api_place_search_url">https://maps.googleapis.com/maps/api/place/nearbysearch/json?</string>
+    <string name="api_place_text_search_url">https://maps.googleapis.com/maps/api/place/textsearch/json?</string>
+    
+    <bool name="is_show_ads">true</bool>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="totu_share_place">Chọn để chia sẻ \nthông tin địa điểm</string>
+    <string name="totu_option_place">Lựa chọn: \nGọi điện, Lưu ưa thích, Chỉ đường</string>
+    <string name="totu_navigate">Chọn để bắt đầu \nđiều khiển điều hướng</string>
+    <string name="totu_more">Lấy thêm</string>
+    <string name="totu_search">Tìm kiếm</string>
+    <string name="totu_results">Danh sách</string>
+    <string name="totu_touch_info_window">Chạm bảng thông tin \nđể vào chi tiết địa điểm</string>
+    <string name="totu_car">Xe hơi</string>
+    <string name="totu_walk">Đi bộ</string>
+    <string name="totu_start_destination">Chọn điểm khởi đầu và điểm đến \nđể lấy chỉ đường</string>
+    <string name="totu_delete_all">Xoá tất cả</string>
+    <string name="totu_swipe_delete">Vuốt sang trái hoặc phải để xoá dữ liệu</string>
+    
+    <string name="help_title_category">Tìm kiếm theo phân loại</string>
+    <string name="help_title_fast_search">Tìm kiếm nhanh</string>
+    <string name="help_title_maps">Địa điểm trên bản đồ</string>
+    <string name="help_title_place_detail">Chi tiết địa điểm</string>
+    <string name="help_title_direction">Chỉ dẫn đường đi</string>
+    <string name="help_title_navigation">Điều hướng đường đi</string>
+    <string name="help_title_favorite">Danh sách ưa thích</string>
+    <string name="help_title_history">Dach sách lịch sử</string>
+    
+    <string name="help_mess_category">Tìm kiếm tất cả các địa điểm xung quang vị trí của bạn theo chủng loại, như nhà hàng, quán cà phê…</string>
+    <string name="help_mess_fast_search">Chỉ cần gõ từ khoá liên quan đến địa điểm bạn muốn tới và kiểm tra danh sách kết quả. Bạn cũng có thể tìm kiếm bằng giọng nói.</string>
+    <string name="help_mess_maps">Xem tất cả danh sách kết quả trên màn hình bản đồ, hiển thị thêm kết quả nếu muốn, lấy danh sách kết quả, lọc kết quả tìm kiếm nếu đang tìm theo chủng loại.</string>
+    <string name="help_mess_place_detail">Hiển thị chi tiết của địa điểm bạn chọn, có thể gọi điện, xem website, gởi email và tìm kiếm đường đi tới địa điểm này.</string>
+    <string name="help_mess_direction">Hiển thị thông tin chỉ đường trên bản đồ, có thể thay đổi đường đi và phương tiện, đặc biệt có thể bật điều hướng để đi tới địa điểm dễ dàng.</string>
+    <string name="help_mess_navigation">Kiểm tra bộ cảm biến điều hướng la bàn số của thiết bị và điều hướng bạn đi đến đúng địa điểm.</string>
+    <string name="help_mess_favorite">Hiển thị danh sách địa điểm ưa thích của bạn, xoá ưa thích bằng cách vuốt sang 2 bên.</string>
+    <string name="help_mess_history">Hiển thị danh sách địa điểm bạn đã tìm kiếm, xoá lịch sử này bằng cách vuốt sang 2 bên.</string>
+</resources>

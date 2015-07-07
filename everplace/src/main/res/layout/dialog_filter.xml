@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/group_search_method"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/text_search_distance" />
+
+            <RadioButton
+                android:id="@+id/radioRadius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_search_radius" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/edt_radius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="@string/text_hint_radius"
+            android:inputType="number" />
+
+        <!--
+             <CheckBox
+            android:id="@+id/cbx_with_keyword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/text_with_keyword" />
+        -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|left"
+            android:orientation="horizontal" >
+
+            <com.gc.materialdesign.views.CheckBox
+                android:id="@+id/cbx_with_keyword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/holo_blue_light"
+                materialdesign:checked="false" />
+
+            <TextView
+                style="@style/StyleTextInHomeTile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_with_keyword" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edt_keyword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="@string/text_hint_keyword"
+            android:inputType="text" />
+    </LinearLayout>
+
+</LinearLayout>

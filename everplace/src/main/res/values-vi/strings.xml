@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_title">Nơi Nơi</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="action_remove_line">Xoá chỉ đường</string>
+    <string name="action_download_more">Tìm thêm địa điểm</string>
+    <string name="action_share">Chia sẻ</string>
+    <string name="action_clear_all">Xoá toàn bộ</string>
+    <string name="action_check_setting">Kiểm tra cài đặt</string>
+    <string name="action_filter">Tìm kiếm nâng cao</string>
+    <string name="action_show_list">Hiển thị danh sách</string>
+    <string name="action_help">Giúp đỡ</string>
+    <string name="action_about">Giới thiệu</string>
+    <string name="action_driving_mode">Đi ôtô</string>
+    <string name="action_walking_mode">Đi bộ</string>
+    
+    <string name="about_phone">Điện thoại: (+84) 984 367 830</string>
+    <string name="about_address">Đại chỉ: Toà nhà Blue Sky, số 01 đường Bạch Đằng, Phường 2, Quận Tân Bình, TP Hồ Chí Minh, Việt Nam</string>
+    
+    <string name="text_place_sharing">Một nơi rất đáng tới:</string>
+    <string name="text_subject_sharing">Địa điểm hay tìm thấy từ ứng dụng Everplace</string>
+    <string name="text_search_distance">Tìm kiếm nhanh ở gần</string>
+    <string name="text_search_radius">Tìm theo bán kính</string>
+    <string name="text_main_search_nearby">Tìm kiếm ở gần</string>
+    <string name="text_main_search_radius">Bán kính: {0} km</string>
+    <string name="text_main_search_keyword">Từ khoá: {0}</string>
+    <string name="text_hint_radius">Điền bán kính (&lt;50km)</string>
+    <string name="text_with_keyword">Với từ khoá</string>
+    <string name="text_hint_keyword">Điền từ khoá</string>
+    <string name="text_zoom">Điều chỉnh:</string>
+    <string name="text_start_navigate">Điều hướng</string>
+    <string name="text_loading">Đang tải…</string>
+    <string name="text_searching">Đang tìm kiếm…</string>
+    <string name="text_distance">Khoảng cách</string>
+    <string name="text_current_location">Vị trí hiện tại</string>
+    <string name="text_in_favourite">Đã lưu ưa thích</string>
+    <string name="text_not_favourite">Chưa lưu ưa thích</string>
+    <string name="text_wrap_position">Đổi chỗ</string>
+    <string name="text_from">Từ:</string>
+    <string name="text_to">Đến:</string>
+    <string name="text_mode_driving">Đi ôtô</string>
+    <string name="text_mode_walking">Đi bộ</string>
+    <string name="text_get_direction">Tìm chỉ đường</string>
+    <string name="text_expand_map">Phóng to Map</string>
+    <string name="text_collapse_map">Thu nhỏ Map</string>
+    <string name="text_no_phone">Không điện thoại</string>
+    <string name="text_no_favorite">Không có dữ liệu</string>
+    <string name="text_saved_favorite">Đã lưu vào ưa thích</string>
+    <string name="text_removed_favorite">Đã xoá khỏi ưa thích</string>
+    <string name="text_favorite_db_fail">Truy xuất dữ liệu thất bại</string>
+    <string name="text_no_of_reviews">&lt;u>{0} đánh giá&lt;/u></string>
+    <string name="text_app_version">Phiên bản {0}</string>
+    <string name="text_copyright">ZuluSolutions © 2014</string>
+    
+    <string name="title_search_filter">Tìm kiếm nâng cao</string>
+    <string name="title_reviews_list">Danh sách đánh giá</string>
+    <string name="title_direction_option">Tuỳ chọn tìm đường</string>
+    <string name="title_direction_details">Chỉ đường</string>
+    <string name="title_category">Địa điểm</string>
+    <string name="title_favorite">Ưa thích</string>
+    <string name="title_about_us">Giới thiệu</string>
+    <string name="title_history">Lịch sử</string>
+    <string name="title_main">Màn hình chính</string>
+    <string name="title_choose_email">Gửi Email</string>
+    
+    <string name="btn_search">Tìm kiếm</string>
+    <string name="btn_cancel">Thoát</string>
+    <string name="btn_ok">OK</string>
+    
+    <string name="text_setting">Cài đặt</string>
+    <string name="text_list_places">Danh sách địa điểm: {0} kết quả</string>
+    <string name="text_place_details">Chi tiết địa điểm</string>
+    <string name="pref_general">Giúp đỡ &amp; Giới thiệu</string>
+    <string name="pref_select_cate_title">Các loại địa điểm</string>
+    <string name="pref_select_cate_summary">Chọn các loại địa điểm trên màn hình chính</string>
+    <string name="pref_interface">Giao diện</string>
+    <string name="pref_language">Ngôn ngữ</string>
+    <string name="pref_language_summary">Ngôn ngữ ứng dụng</string>
+    <string name="pref_language_title">Chọn ngôn ngữ cho ứng dụng</string>
+    <string name="pref_cate_type_summary">Hiển thị màn hình chính</string>
+    <string name="pref_cate_type_title">Chọn chế độ hiển thị các lựa chọn ở màn hình chính</string>
+    <string name="pref_help">Giúp đỡ</string>
+    <string name="pref_help_summary">Chọn để được giúp đỡ</string>
+    <string name="pref_about">Giới thiệu</string>
+    <string name="pref_about_summary">Chọn để đọc giới thiệu</string>
+    
+    <string name="home_restaurant">Nhà hàng</string>
+    <string name="home_park">Công viên</string>
+    <string name="home_cafe">Cà phê</string>
+    <string name="home_zoo">Sở thú</string>
+    <string name="home_food">Ăn uống</string>
+    <string name="home_bar">Quán bar</string>
+    <string name="home_shopping">Mua sắm</string>
+    <string name="home_post_office">Bưu điện</string>
+    <string name="home_bank">ATM, ngân hàng</string>
+    <string name="home_hospital">Bệnh viện</string>
+    <string name="home_pharmacy">Nhà thuốc</string>
+    <string name="home_bus_station">Trạm xe buýt</string>
+    <string name="home_gas_station">Trạm xăng</string>
+    <string name="home_super_market">Siêu thị</string>
+    <string name="home_museum">Bảo tàng</string>
+    <string name="home_school">Trường học</string>
+    <string name="home_university">Trường đại học</string>
+    <string name="home_beauty_salon">Spa</string>
+    <string name="home_stadium">Sân vận động</string>
+    <string name="home_gym">Phòng thể hình</string>
+    <string name="home_movie_theater">Rạp phim</string>
+    <string name="home_night_club">Hộp đêm</string>
+    
+    <string name="msg_about">Ứng dụng Zulu Everplace giúp bạn có thể tìm kiếm tất cả những địa điểm mà bạn cần đến ở ngay xung quanh bạn, rất nhanh gọn và tiện lợi.</string>
+    <string name="msg_develop_by">Develop by ZuluSolutions.</string>
+    <string name="msg_contact">Please contact us at:</string>
+    <string name="msg_contact_at_email">1. zulusolutions@gmail.com</string>
+    <string name="msg_contact_at_page">2. https://www.facebook.com/ZuluSolutions</string>
+    
+    <string name="msg_no_data_from_google">Opps, không truy cập được vào dịch vụ google, hãy thử lại sau.</string>
+    <string name="msg_restart_app">Không thể truy cập vị trí hiện tại, hãy quay về và thử lại.</string>
+    <string name="msg_no_email_app">Không tìm thấy ứng dụng Email nào trong điện thoại.</string>
+    <string name="msg_url_fail">Không thể tìm thấy url của bạn.</string>
+    <string name="msg_map_not_found">Không tìm thấy ứng dụng map nào trên thiết bị.</string>
+    <string name="msg_no_internet_access">Không có kết nối mạng, hãy bật Wifi hoặc 3G.</string>
+    <string name="msg_change_language_successfully">Đổi ngôn ngữ thành công.</string>
+    <string name="msg_back_again_to_exit">Nhấn nút Back lần nữa để thoát.</string>
+    <string name="msg_turn_gps_on">Kích hoạt GPS để tìm kiếm chính xác hơn.</string>
+    <string name="msg_connect_fail">Kết nối thất bại, hãy kiểm tra dịch vụ mạng hoặc cài đặt vị trí.</string>
+    <string name="msg_no_results">Tìm thấy {0} kết quả.</string>
+    <string name="msg_no_results_more">Không tìm thấy thêm địa điểm nào.</string>
+    <string name="msg_no_results_found">Không tìm thấy địa điểm nào.</string>
+    <string name="msg_fill_keyword">Hãy nhập từ khoá để tìm kiếm.</string>
+    <string name="msg_keyword_encoded">Hãy nhập từ khoá không có dấu.</string>
+    <string name="msg_fill_radius">Hãy nhập bán kính để tìm kiếm.</string>
+    <string name="msg_fill_all_fields">Hãy nhập các dữ liệu cần thiết để tìm kiếm.</string>
+    <string name="msg_radius_less_50">Hãy nhập bán kính nhở hơn 50km.</string>
+    <string name="msg_help_guide">Một số điểm quan trọng:</string>
+    <string name="msg_help_1">1. Select a place type in top dropdown list for searching.</string>
+    <string name="msg_help_2">2. Fill search information in Search Filter dialog for advanced search.</string>
+    <string name="msg_help_3">3. Start navigation for looking orientation sensor to target places.</string>
+    <string name="msg_clear_confirm">Bạn thật sự muốn xoá tất cả dữ liệu?</string>
+    <string name="msg_open_wireless_gps">Network GPS có vẻ đã bị tắt, hãy kích hoạt nó để tìm chính xác vị trí của bạn?</string>
+    <string name="msg_telephony_not_avaiable">Chức năng gọi điện không có trên thiết bị này.</string>
+    <string name="msg_done_for_now">Xoá bây giờ?</string>
+    
+    <!-- crash string -->
+    <string name="crash_toast_text">Ooooops ! I crashed, but a report has been sent to my developer to help fix the issue !</string>
+    <string name="crash_dialog_title">Asia Plus has crashed</string>
+    <string name="crash_dialog_text">An unexpected error occurred forcing the application to stop. Please help us fix this by sending us error data, all you have to do is click OK.</string>
+    <string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+    <string name="crash_dialog_ok_toast">Thank you !</string>
+    
+    <!-- side string -->
+    <string name="text_search_target">Tìm kiếm xung quanh</string>
+    <string name="text_current_pos">Vị trí hiện tại</string>
+    <string name="text_phu_quoc">Đảo Phú Quốc</string>
+    
+    <string-array name="places">
+        <item >Park</item>
+        <item >Zoo</item>
+        <item >Cafe</item>
+        <item >Restaurant</item>
+        <item >Shopping Mall</item>
+        <item >ATM</item>
+        <item >Bank</item>
+        <item >Hospital</item>
+        <item >Pharmacy</item>
+        <item >Police</item>
+        <item >Food</item>
+        <item >Spa</item>
+        <item >Bar</item>
+        <item >University</item>
+    </string-array>
+    
+    <!-- Test string -->
+    
+    <string name="action_update">Cập nhật</string>
+    <string name="drawer_open">Các lựa chọn</string>
+    <string name="drawer_close">Đóng các lựa chọn</string>
+    
+    <string-array name="options">
+        <item >Các loại địa điểm</item>
+        <item >Danh sách ưa thích</item>
+        <item >Danh sách lịch sử</item>
+        <item >Cài đặt</item>
+    </string-array>
+    
+    <string-array name="languagesEntries">
+        <item>Tiếng Anh (US)</item>
+        <item>Tiếng Việt</item>
+    </string-array>
+    
+    <string-array name="languagesValues">
+	    <item>US</item>
+        <item>VN</item>
+	</string-array>
+	
+    <string-array name="cateTypeEntries">
+        <item>Dạng danh sách</item>
+        <item>Dạng ô lớn</item>
+    </string-array>
+    
+    <string-array name="cateTypeValues">
+        <item>List</item>
+	    <item>Metro</item>
+	</string-array>
+	
+    <string-array name="categoryEntries">
+        <item>Nhà hàng, Quán nhậu</item>
+        <item>Địa điểm du lịch, Sở thú</item>
+        <item>Quán cà phê</item>
+        <item>Cửa hàng, Khu mua sắm, Quán bar</item>
+        <item>Địa điểm ăn uống</item>
+        <item>Ngân hàng, ATM, Bưu điện</item>
+        <item>Siêu thị, Viện bảo tàng</item>
+        <item>Chăm sóc sắc đẹp</item>
+        <item>Trạm xe buýt, Trạm xăng</item>
+        <item>Hộp đêm, Karaoke, Rạp phim</item>
+        <item>Bệnh viện, Cơ sở y tế, Nhà thuốc</item>
+        <item>Trường học, Đại học</item>
+        <item>Sân vận động, Phòng thể hình</item>
+    </string-array>
+    
+    <string-array name="categoryValues">
+	    <item>Restaurant</item>
+        <item>Park</item>
+        <item>Cafe</item>
+        <item>Shoping</item>
+        <item>Food</item>
+        <item>Bank</item>
+        <item>Market</item>
+        <item>Beauty</item>
+        <item>Bus</item>
+        <item>Night</item>
+        <item>Health</item>
+        <item>School</item>
+        <item>Stadium</item>
+	</string-array>
+	
+    <string-array name="empty_array"/>
+
+</resources>
